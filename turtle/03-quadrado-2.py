@@ -1,8 +1,7 @@
 from turtle import *
 
-tamanho = 200
 for _ in range(4):
-    forward(tamanho)
+    forward(200)
     left(90)
 exitonclick()
 
