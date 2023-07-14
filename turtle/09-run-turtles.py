@@ -3,6 +3,7 @@ import random
 import time
 
 vetor = [1,2,3,4,5,6]
+turtle.title("CORRIDA DE TARTARUGAS")
 
 # criação das tartarugas
 player_one = turtle.Turtle()
