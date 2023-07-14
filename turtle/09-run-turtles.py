@@ -2,7 +2,7 @@ import turtle
 import random
 import time
 
-die = [1,2,3,4,5,6]
+vetor = [1,2,3,4,5,6]
 
 player_one = turtle.Turtle()
 player_one.color("green")
@@ -36,10 +36,10 @@ for i in range(20):
     turtle.write("Player Two Wins!", font=("Arial", 15, "normal"))
     break
   else:
-    die_outcome = random.choice(die)
-    player_one.fd(20*die_outcome)
-    die_outcome = random.choice(die)
-    player_two.fd(20*die_outcome)
+    velocidade = random.choice(vetor)
+    player_one.forward(20*velocidade)
+    velocidade = random.choice(vetor)
+    player_two.forward(20*velocidade)
     time.sleep(1)
 
 turtle.exitonclick()
