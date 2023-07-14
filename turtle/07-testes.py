@@ -4,7 +4,9 @@ setposition(-200, 0)
 pendown()
 bgcolor("yellow")
 title("Desenhando sinais digitais")
-for _ in range(3):
+shape("turtle")
+fillcolor("red")
+for _ in range(4):
     forward(50)
     left(90)
     for _ in range(2):
