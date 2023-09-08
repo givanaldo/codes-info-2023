@@ -27,3 +27,4 @@ elif opcao == 3: # i = U / R
 else:
     print("Opção inválida. Você sabe ler?")
 
+# implementar com repetição
