@@ -1,4 +1,4 @@
-usuario = senha = "aaaa"
+usuario = senha = "a"
 while usuario == senha:
     usuario = input("Usuário: ")
     senha = input("Senha: ")
