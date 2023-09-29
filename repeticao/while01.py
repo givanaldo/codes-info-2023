@@ -1,9 +1,8 @@
-num = -1
-while (num < 0):
-    num = int(input("Número: "))
-fatorial = 1
-i = num
-while i > 1:
-    fatorial = fatorial * i
-    i = i - 1
-print(f'F({num}) = {fatorial}')
+# exiba os X primeiros múltiplos de um número 
+# que o usuário digitar.
+num = int(input('Número: '))
+n_multiplos = int(input('Quantidade de múltiplos:'))
+i = 1
+while i <= n_multiplos:
+    print(num * i)
+    i = i + 1
