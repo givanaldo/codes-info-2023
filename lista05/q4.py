@@ -9,9 +9,6 @@ pontuacao = ',.:'
 for p in pontuacao:
     for i, palavra in enumerate(lista):
         lista[i] = palavra.replace(p, "")
-print(lista)
-
-import string
-print(string.digits)
-print(string.punctuation)
-print(string.ascii_letters)
+for palavra in lista:
+    if palavra[0].lower() in 'python' or palavra[-1].lower() in 'python':
+        print(palavra)
